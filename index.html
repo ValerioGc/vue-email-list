@@ -8,10 +8,11 @@
     </head>
     <body>
     <!-- App -->
-        <div id="app">
-            <ul>
+        <div id="app"  style="width: 100%;">
+            <h1 style="text-align: center; padding: 250px 0 0;">Generatore email casuali</h1>
+            <ol style="text-align: center; padding: 25px 0;">
                 <li v-for="(email, index) in emailArray">{{emailArray[index]}}</li>
-            </ul>
+            </ol>
         </div>
     <!-- Script -->
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
