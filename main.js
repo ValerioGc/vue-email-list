@@ -10,14 +10,9 @@ var app = new Vue({
                 .then(response => {
                     this.currEmail = response.data.response;
                     this.emailArray.push(this.currEmail);
-                })
+                }
+            )
         }
         console.table(this.emailArray)
     }
-
-    
 })
-
-
-
-
